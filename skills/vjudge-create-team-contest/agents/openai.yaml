@@ -1,0 +1,4 @@
+interface:
+  display_name: "Create VJudge Team Contest"
+  short_description: "Create a configured VJudge group team contest"
+  default_prompt: "Use $vjudge-create-team-contest to create and verify a VJudge group contest from an official source contest."

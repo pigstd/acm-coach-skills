@@ -1,0 +1,21 @@
+# Local configuration and credentials
+config.json
+*.local.json
+.env
+.env.*
+credentials/
+password.txt
+
+# Generated records and exports
+outputs/
+.test-output/
+*.xlsx
+*.xls
+*.csv
+*.pdf
+
+# OS and editor files
+.DS_Store
+Thumbs.db
+.idea/
+.vscode/

@@ -1,0 +1,49 @@
+{
+  "version": 1,
+  "timezone": "Asia/Shanghai",
+  "organization": {
+    "name": "",
+    "season": ""
+  },
+  "paths": {
+    "trialSummaryFallback": ""
+  },
+  "vjudge": {
+    "group": {
+      "name": "",
+      "shortName": "",
+      "id": null
+    },
+    "contestTitleTemplate": "{organization} Team Trial {round} {season}",
+    "authentication": {
+      "mode": "browser",
+      "credentialFile": ""
+    },
+    "defaults": {
+      "durationMinutes": 300,
+      "wrongAttemptPenaltySeconds": 1200,
+      "freezeMinutesBeforeEnd": 60,
+      "unfreezeMinutesAfterEnd": 1
+    }
+  },
+  "tencentDocs": {
+    "trialSummary": {
+      "documentUrl": "",
+      "targetSheet": {
+        "name": "",
+        "id": ""
+      },
+      "rosterSheet": {
+        "name": "",
+        "id": ""
+      }
+    },
+    "training": {
+      "documentUrl": "",
+      "targetSheet": {
+        "name": "",
+        "id": ""
+      }
+    }
+  }
+}

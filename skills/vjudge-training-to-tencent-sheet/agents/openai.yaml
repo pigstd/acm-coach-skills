@@ -1,0 +1,4 @@
+interface:
+  display_name: "VJudge Training to Tencent Sheet"
+  short_description: "Sync VJudge standings into a Tencent sheet"
+  default_prompt: "Use $vjudge-training-to-tencent-sheet to sync a VJudge contest ranking into my configured Tencent training sheet."

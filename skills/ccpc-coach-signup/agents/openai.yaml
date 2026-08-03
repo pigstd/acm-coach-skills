@@ -1,0 +1,4 @@
+interface:
+  display_name: "CCPC Coach Signup"
+  short_description: "Guide coach workflows for CCPC team signup"
+  default_prompt: "Use $ccpc-coach-signup to collect team information and register teams for a CCPC-style contest."

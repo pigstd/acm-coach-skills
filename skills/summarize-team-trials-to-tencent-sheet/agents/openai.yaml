@@ -1,0 +1,4 @@
+interface:
+  display_name: "Trial Summary to Tencent Sheet"
+  short_description: "Summarize team trials and update Tencent Sheets"
+  default_prompt: "Use $summarize-team-trials-to-tencent-sheet to summarize one trial date and update my configured Tencent sheet."

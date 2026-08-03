@@ -1,0 +1,4 @@
+interface:
+  display_name: "Setup ACM Coach Skills"
+  short_description: "Install and configure the ACM coach skill suite"
+  default_prompt: "Use $setup-acm-coach-skills to install and configure this ACM coach skill suite for my own accounts."
