@@ -1,0 +1,4 @@
+interface:
+  display_name: "Contest Reimbursement"
+  short_description: "Check and package contest reimbursement materials"
+  default_prompt: "Use $contest-reimbursement to check contest reimbursement materials against completed examples, reconcile expenses, and assemble a submission folder and ZIP."

@@ -50,6 +50,7 @@ if (-not $ConfigPath) {
 $requiredSkills = @(
     'setup-acm-coach-skills',
     'ccpc-coach-signup',
+    'contest-reimbursement',
     'summarize-team-trials-to-tencent-sheet',
     'vjudge-create-team-contest',
     'vjudge-training-to-tencent-sheet'

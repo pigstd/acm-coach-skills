@@ -3,6 +3,7 @@
 A reusable, account-neutral Codex skill suite for ACM/ICPC coaches:
 
 - `ccpc-coach-signup`: prepare and submit CCPC-style coach registrations.
+- `contest-reimbursement`: check missing contest reimbursement evidence, reconcile invoices and payments, and assemble a submission folder and ZIP.
 - `summarize-team-trials-to-tencent-sheet`: collect trial reports and update a Tencent Sheet.
 - `vjudge-create-team-contest`: create and verify a private VJudge group contest.
 - `vjudge-training-to-tencent-sheet`: synchronize VJudge standings to a Tencent Sheet.

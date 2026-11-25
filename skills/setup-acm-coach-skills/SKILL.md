@@ -9,7 +9,7 @@ Install all sibling skills and create one local, non-secret configuration. Never
 
 ## 1. Locate the repository
 
-Resolve this skill's directory and require its parent `skills` directory to contain the four sibling workflow skills. If siblings are missing, stop and ask the user to clone or provide the complete repository; do not silently install a partial suite.
+Resolve this skill's directory and require its parent `skills` directory to contain the five sibling workflow skills, including `contest-reimbursement`. If siblings are missing, stop and ask the user to clone or provide the complete repository; do not silently install a partial suite.
 
 ## 2. Collect configuration
 
@@ -53,7 +53,7 @@ It writes the local config to `<CODEX_HOME>/acm-coach/config.json` or `<user-pro
 After installation:
 
 1. Parse the written JSON and ensure it contains no password, token, cookie, or secret fields.
-2. Confirm all five skill folders contain `SKILL.md` and `agents/openai.yaml`.
+2. Confirm all six skill folders contain `SKILL.md` and `agents/openai.yaml`.
 3. Run the skill validator on each installed skill when the validator is available.
 4. If the user configured VJudge or Tencent Docs, open the configured destination read-only and confirm the group/document/tab exists.
 5. Do not create contests, students, teams, registrations, columns, or cells during setup.
