@@ -6,15 +6,17 @@ Use the receiving unit's documented rules and the user's confirmed exceptions to
 
 | Expense | Invoice or ticket evidence | Supporting evidence and matching fields |
 |---|---|---|
-| Contest purpose | Sealed invitation or contest notice | Contest name, dates, venue, fee, authorized collector |
+| Contest purpose | Sealed invitation or contest notice for each contest | Verify the seal visually and check the contest name, dates, venue, fee, and authorized collector |
 | Registration | Registration, contest-service, or conference-fee invoice | Payment record where required, fee per team and number of teams |
 | Train | Railway electronic ticket for each traveler and journey | Payment record where required, name/date/train/route/seat; order details when existing tickets leave an ambiguity |
 | Airfare | Airline electronic ticket itinerary or the available platform booking-service invoice | Booking and payment details, all travelers and directions, route/flight/date/cabin, fare and add-on breakdown |
-| Hotel | Accommodation or booking-service invoice | Hotel order/stay record, check-in/check-out, room type/count/nights, payment details where required |
+| Hotel | Accommodation or booking-service invoice | Hotel order/stay record, check-in/check-out, room type/count, nights, actual guest count, payment details where required |
 | Ride-hailing | Passenger-transport invoice | Platform itinerary with date, pickup/dropoff, trip amount and payer association |
 | Tolls | Toll invoice | Corresponding journey and payment relation, with separate amounts counted once |
 
 Supporting facts can span documents. An accommodation invoice can provide room/nights details while an order provides dates and payment status. A complete order may carry sufficient payment information for the convention being followed. A platform payment merchant can differ from the invoice issuer. Check order identifiers and hotel details.
+
+Write a separate Chinese accommodation remark if the invoice remarks omit the check-in date, check-out date, number of nights, or actual guest count. Example: `5 月 X 日入住，5 月 X 日离店，共住 X 晚，实际入住 X 人，共 X 间。` If the user confirms that the actual guests are the people covered by the contest's travel tickets, count distinct travelers once across tickets and directions. Use this confirmed total even if the booking lists fewer guest names. For multiple invoices, give the confirmed group total and include invoice-level guest counts only when supported. Preserve original invoices. If the receiving unit specifically requires these details in the invoice's own remarks field, flag the need for an updated invoice from the issuer.
 
 For airline materials, inspect the actual document title. PDF and OFD describe formats, while `航空运输电子客票行程单` and `代订机票款` identify different document types. Completed packages can contain individual airline itineraries and a shared order/payment screenshot. Report that pattern when asked. If the current materials use a combined platform invoice, keep it intact and describe the resulting difference in the summary. Their acceptance depends on the applicable receiving-unit guidance.
 
@@ -59,6 +61,7 @@ Use financial values as `Decimal` or integer minor units. Keep `invoice amount`,
     延误赔-小计/
     发票XML/
   酒店费-小计/
+    住宿报销备注.txt
     住宿费发票-发票号码-票面金额.pdf
     酒店订单1-日期-房型间夜数.png
     酒店订单2-日期-房型间夜数.png
